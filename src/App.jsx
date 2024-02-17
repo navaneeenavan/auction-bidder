@@ -43,7 +43,7 @@ function App() {
             exact
             path={import.meta.env.BASE_URL + "admin"}
             element={
-              <ProtectedRoute condition={!admin}>
+              <ProtectedRoute condition={admin}>
                 <AdminPage />
               </ProtectedRoute>
             }

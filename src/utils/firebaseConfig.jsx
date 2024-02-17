@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 
 // Web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCAYOYDuMKGGjTSJL5uDzG5hjQ6y_vYPiI",
-  authDomain: "auction-website-b12fc.firebaseapp.com",
-  databaseURL: "https://auction-website-b12fc.firebaseio.com",
-  projectId: "auction-website-b12fc",
-  storageBucket: "auction-website-b12fc.appspot.com",
-  messagingSenderId: "791747024664",
-  appId: "1:791747024664:web:215a222a81c6d0c2aeb06d",
+  apiKey: "AIzaSyCmUJR2VwW-aJZN_Z15vS2X8-yO-Zs_qek",
+  authDomain: "art-auction-site.firebaseapp.com",
+  projectId: "art-auction-site",
+  storageBucket: "art-auction-site.appspot.com",
+  messagingSenderId: "46320554201",
+  appId: "1:46320554201:web:eb0f951bd6b0ffb1752ec8",
+  measurementId: "G-93E89NWL1Q",
 };
 
 // Initialize Firebase
